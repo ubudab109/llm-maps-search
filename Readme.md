@@ -5,7 +5,7 @@ This project is a full-stack application integrating Node JS backend, React JS f
 ## Project Structure
 
 ```
-my-project/
+llm-maps-search/
 ├─ backend/               # Node JS + Express backend
 ├─ places-frontend/       # React JS frontend
 ├─ docker-compose.yaml    # Docker Compose configuration
@@ -25,7 +25,7 @@ my-project/
 
 1. Install Docker and Docker Compose.
 2. Copy `.env.example` to `.env` in both `backend/` and `places-frontend/`.
-3. Fill in Google Maps API keys in `.env` if necessary.
+3. Fill in Google Maps API keys in `.env`.
 4. Setup Open Web UI: choose a model and provide API key (to be configured manually before using the frontend).
 
 ## Running the Project
