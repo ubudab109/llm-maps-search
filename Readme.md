@@ -46,5 +46,8 @@ make up
 ## Notes
 
 - Before making any prompts in the frontend, ensure Open Web UI is properly configured with a model and API key.
+  - Quick Setup: https://docs.openwebui.com/getting-started/quick-start/
+  - Generate API Key: https://docs.openwebui.com/getting-started/api-endpoints
+  - After generate API KEY, put the value inside `.env` file from `/backend/.env` in `OPENWEBUI_API_KEY`
 - Frontend communicates with backend via `/api/search`.
 - Docker Compose sets up three main services: Open Web UI, backend, and frontend.
